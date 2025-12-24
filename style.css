@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #0f3d2e, #1b5e20);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    background: #b71c1c;
+    padding: 12px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
